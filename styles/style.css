@@ -118,8 +118,8 @@
 }
 
 .digits {
-  margin: 100px 0;
   color:#000000;
+  margin: 100px 0;
 }
 
 .section-title {
@@ -144,8 +144,8 @@
 
 .table {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0 auto;
   width: 1100px;
 }
@@ -159,15 +159,66 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin: 0;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 20px;
+  margin: 20px 0 0;
 }
+
+.feynman {
+  height: 890px;
+  background-color: #f2f2f2;
+  color: #000000;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.feynman__title {
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+  margin: 100px auto 70px;
+  z-index: 100;
+}
+
+.feynman__subtitle {
+  position: absolute;
+  top: 50%;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0 auto;
+  z-index: 99;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+
+}
+
+.feynman__main-illustration {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 867px;
+  height: 637px;
+  background-size: cover;
+}
+
 
 
 /* и элемента с модификатором вида ключ-значение */
