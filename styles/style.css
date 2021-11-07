@@ -96,6 +96,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -108,13 +109,17 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0 0 30px;
 }
 
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
-  margin: 30px 0;
+}
+
+.two-columns__paragraph:last-of-type {
+ margin-bottom: 0;
 }
 
 .digits {
@@ -123,22 +128,20 @@
 }
 
 .section-title {
+  text-align: center;
   width: 60%;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  display: flex;
-  justify-content: center;
   margin: 0 auto 20px;
 }
 
 .section-subtitle {
+  text-align: center;
   width: 60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  display: flex;
-  justify-content: center;
   margin: 0 auto;
 }
 
@@ -150,9 +153,10 @@
   width: 1100px;
 }
 
-.table__cell_1 {
+.table__cell {
   width: 250px;
   margin-top: 60px;
+  margin-right: 0px;
 }
 
 .table__heading {
@@ -219,12 +223,52 @@
   background-size: cover;
 }
 
+.kaufman {
+  background-color:#000000;
+  overflow: hidden;
+  position: relative;
+}
 
+.section-title_theme_dark {
+  color: #ffffff;
+  margin: 90px auto 20px;
+}
+
+.section-subtitle_theme_dark {
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.table_theme_dark {
+  color: #ffffff;
+  margin-bottom: 90px;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
+  color: #ffffff;
   width: 200px;
-  color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 100;
+}
+
+.table__heading_theme_dark {
+  color: #ffffff;
+  margin: 0 0 20px;
+}
+
+.table__text_theme_dark {
+  color: #ffffff;
+  margin: 0;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  top: 0;
+  right: -210px;
+  width: 877px;
+  height: 877px;
+  background-size: cover;
+  z-index: 0;
 }
