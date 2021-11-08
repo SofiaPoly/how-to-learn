@@ -211,7 +211,6 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
-
 }
 
 .feynman__main-illustration {
@@ -245,7 +244,7 @@
 .table_theme_dark {
   z-index: 2;
   margin: 0 auto 90px;
-  border: 1px solid red;
+  padding: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
