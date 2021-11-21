@@ -1,0 +1,4 @@
+.footer__nav-list {
+  flex-direction: column;
+  margin: 20px 0 16px;
+}
